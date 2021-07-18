@@ -200,14 +200,13 @@ function buildCharts(sample) {
         text: otu_labels.slice(0, 10).reverse(),
         type: "bar",
         orientation: "h",
-        barcolor: "red",
       } 
     ];
     
     // 9. Create the layout for the bar chart. 
     var barLayout = {
       width: 500, height: 500,
-      title: "Top 10 Bacteria Cultures Found",
+      title: "<b>Top 10 Bacteria Cultures Found</b>",
       margin: { t: 30, l: 150 }   
     };
 
@@ -242,14 +241,14 @@ function buildCharts(sample) {
     
     // DELIVERABLE 3 Q4: Create the trace for the gauge chart.
     var gaugeData = [{
-      domain: { x: [0, 1], y: [0, 1] },
+      domain: {x: [0, 1], y: [0, 1]},
       value: washing_frequency,
       type: "indicator",
       mode: "gauge+number",
-      title: { text: "<b> Belly Button Washing Frequency</b> <br> # of Scrubs per Week" },
+      title: {text: "<b> Belly Button Washing Frequency</b> <br> # of Scrubs per Week" },
       gauge: {
-        axis: { range: [null, 10], tickwidth: 2, tickcolor: "black" },
-        bar: { color: "black" },
+        axis: {range: [null, 10], tickwidth: 2, tickcolor: "black" },
+        bar: {color: "black"},
         steps: [
           {range:[0, 2],color:"lavender"},
           {range:[2, 4],color:"lightsteelblue"},
