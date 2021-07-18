@@ -2,22 +2,12 @@
 <html lang="en">
 
 <style>
-
-.panel-primary {      
-        background-color: #f88c8c;
+.row { 
+    background-color: bisque;
     }
-
-.panel-heading {      
-        background-color: #f88c8c;
-
-    }
-
-.panel-title {
-        background-color: #f88c8c;
-        margin: 0%;
-        padding: 0%;
-    }
-
+.panel-primary {
+    background-color: bisque;
+}
 </style>
 
 <head>
@@ -41,12 +31,11 @@
       <div class="col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
-         <!-- <select id="#selDataset"></select> -->
             <select id="selDataset" onchange="optionChanged(this.value)">
   
             </select> 
         </div>
-        <div class="panel panel-primary">
+        <div class="panel-primary">
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
