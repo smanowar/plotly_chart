@@ -54,7 +54,9 @@ function buildMetadata(sample) {
   });
 }
 
-//--------------------------------------------------------------------------
+// skip to Deliverable 3 for refactored code including deliverable 1 and deliverable 2
+
+//-------------------------------------------------------------------------
 //                      Deliverable 1: Bar chart
 //-------------------------------------------------------------------------
 // 1. Create the buildCharts function.
