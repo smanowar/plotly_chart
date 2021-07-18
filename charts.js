@@ -256,9 +256,9 @@ function buildCharts(sample) {
         steps: [
           {range:[0, 2],color:"lavender"},
           {range:[2, 4],color:"lightsteelblue"},
-          {range:[4, 6],color:"mediumlateblue"},
-          {range:[6, 8],color:"slateblue"},
-          {range:[8, 10],color:"darkslateblue"}
+          {range:[4, 6],color:"cornflowerblue"},
+          {range:[6, 8],color:"royalblue"},
+          {range:[8, 10],color:"blue"}
         ],
         threshold: {
           value: washing_frequency,
