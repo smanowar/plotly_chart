@@ -254,11 +254,11 @@ function buildCharts(sample) {
         axis: {range: [null, 10], tickwidth: 2, tickcolor: "black" },
         bar: {color: "black"},
         steps: [
-          {range:[0, 2],color:"blue"},
-          {range:[2, 4],color:"mediumblue"},
-          {range:[4, 6],color:"darkblue"},
-          {range:[6, 8],color:"navy"},
-          {range:[8, 10],color:"midnightblue"}
+          {range:[0, 2],color:"lavender"},
+          {range:[2, 4],color:"lightsteelblue"},
+          {range:[4, 6],color:"mediumlateblue"},
+          {range:[6, 8],color:"slateblue"},
+          {range:[8, 10],color:"darkslateblue"}
         ],
         threshold: {
           value: washing_frequency,
