@@ -198,6 +198,7 @@ function buildCharts(sample) {
         text: otu_labels.slice(0, 10).reverse(),
         type: "bar",
         orientation: "h",
+        fillcolor: "red",
       } 
     ];
     
@@ -227,7 +228,7 @@ function buildCharts(sample) {
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
-      title: "Bacteria Cultures Per Sample",
+      title: "<b> Bacteria Cultures Per Sample </b>",
       margin: { t: 0 },
       hovermode: "closest",
       xaxis: { title: "OTU ID" },
@@ -250,8 +251,8 @@ function buildCharts(sample) {
         steps: [
           { range: [0, 2], color: "mistyrose" },
           { range: [2, 4], color: "lightsalmon" },
-          { range: [4, 6], color: "salmon" },
-          { range: [6, 8], color: "darksalmon" },
+          { range: [4, 6], color: "darksalmon" },
+          { range: [6, 8], color: "salmon" },
           { range: [8, 10], color: "tomato" }
         ],
         threshold: {
