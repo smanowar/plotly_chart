@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<style> 
-.col-md-12 {
-    background-image: "images/bacteria.jpg";
-}
-</style>
 
 <head>
   <meta charset="UTF-8">
@@ -18,21 +13,21 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center" >
-        <h1> Belly Button Biodiversity Dashboard </h1>
-        <p> Use the interactive charts below to explore the dataset</p>
-        <p> Select a volunteer number to display the top 10 bacterial species found in their bellybutton, the amount and types of bacterial cultures found, and the frequency their bellybutton is washed. </p>
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Belly Button Biodiversity Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
+         <!-- <select id="#selDataset"></select> -->
             <select id="selDataset" onchange="optionChanged(this.value)">
   
             </select> 
         </div>
-        <div class="panel-primary">
+        <div class="panel panel-primary">
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
